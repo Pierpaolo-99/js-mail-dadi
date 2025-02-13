@@ -7,6 +7,8 @@ eh si!  Basta ragionare un po’. */
 // preparazione della lista di email degli invitati
 
 const email_list = ['saraesposito@gmail.com', 'giacomorossi@gmail.com', 'alessandromagno@gmail.com','antonioscognamillo@gmail.com']
+console.log(email_list);
+
 
 // chiediamo all'utente la sua mail
 
@@ -14,6 +16,9 @@ const user_email = prompt('Inserisci e-mail')
 
 // verifica della mail dentro la lista
 
-for ()
+for (let i = 0; i < email_list; i++){
+    const verify_email = email_list [i]
+    console.log(verify_email);
+}
 
 // messaggio dell'esito
