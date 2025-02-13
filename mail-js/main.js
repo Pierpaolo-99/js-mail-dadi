@@ -10,8 +10,10 @@ const email_list = ['saraesposito@gmail.com', 'giacomorossi@gmail.com', 'alessan
 
 // chiediamo all'utente la sua mail
 
+const user_email = prompt('Inserisci e-mail')
 
 // verifica della mail dentro la lista
 
+for ()
 
 // messaggio dell'esito
