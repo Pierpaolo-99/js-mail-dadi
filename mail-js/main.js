@@ -20,4 +20,7 @@ for (let i = 0; i < email_list.length ; i++){
         // messaggio dell'esito
         console.log('la tua mail è valida, sei ufficialmente invitato alla festa!!');
     }
+    else{
+        console.log('Mi dispiace la tua mail non è valida, non sei invitato alla festa.');
+    }
 }
