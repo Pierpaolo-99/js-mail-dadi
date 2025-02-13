@@ -9,16 +9,15 @@ eh si!  Basta ragionare un po’. */
 const email_list = ['saraesposito@gmail.com', 'giacomorossi@gmail.com', 'alessandromagno@gmail.com','antonioscognamillo@gmail.com']
 console.log(email_list);
 
-
 // chiediamo all'utente la sua mail
 
 const user_email = prompt('Inserisci e-mail')
 
 // verifica della mail dentro la lista
 
-for (let i = 0; i < email_list; i++){
-    const verify_email = email_list [i]
-    console.log(verify_email);
+for (let i = 0; i < email_list.length ; i++){
+    if (user_email.valueOf() === email_list [i]){
+        // messaggio dell'esito
+        console.log('la tua mail è valida, sei ufficialmente invitato alla festa!!');
+    }
 }
-
-// messaggio dell'esito
